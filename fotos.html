@@ -1,0 +1,175 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Fotos</title>
+<link rel="shortcut icon" href="Imagenes\lg.png" />
+<style type="text/css">
+			
+			* {
+				margin:0px;
+				padding:0px;
+			}
+			
+			#header {
+				margin:auto;
+				width:500px;
+				font-family:Arial, Helvetica, sans-serif;
+			}
+			
+			ul, ol {
+				list-style:none;
+			}
+			
+			.nav > li {
+				float:left;
+			}
+			
+			.nav li a {
+				background-color:#009bdf;
+				color:#osd000;
+				text-decoration:none;
+				padding:10px 15px;
+				display:block;
+			}
+			
+			.nav li a:hover {
+	background-color: #ffc0d1;
+	font-size: x-large;
+			}
+			
+			.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:+140px;
+			}
+
+			
+			.nav li:hover > ul {
+				display:block;
+			}
+			
+			.nav li ul li {
+				position:relative;
+			}
+			
+			.nav li ul li ul {
+				right:-140px;
+				top:0px;
+			}
+			
+		</style>
+           <style type="text/css">
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+ 
+.texto-encima{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+</style>
+           <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+           </script>
+           <script type="text/javascript">
+function showPic (whichpic) {
+ if (document.getElementById) {
+  document.getElementById('imgContenedor').src = whichpic.href;
+  if (whichpic.title) {
+   document.getElementById('imgDescripcion').childNodes[0].nodeValue = whichpic.title;
+  } else {
+   document.getElementById('imgDescripcion').childNodes[0].nodeValue = whichpic.childNodes[0].nodeValue;
+  }
+  return false;
+ } else {
+  return true;
+ }
+}
+</script>
+</head>
+
+<body bgcolor="#009bdf" onLoad="MM_preloadImages('Imagenes/2.png')">
+<ul class="nav">
+				<li><a href="index.html">    <img src="Imagenes\logo.png" width="115" height="34"></a></li>
+				<li><a href="quienes somos.html"><font color="#ffffff" size="4" face="Moon, Comic Sans MS, Arial, MS Sans Serif">Banda</font></a>
+                <ul>
+						<li><a href="integrantes.html"><font color="#ffffff" size="2" face="Moon, Comic Sans MS, Arial, MS Sans Serif">Integrantes</font></a></li>
+						
+				  </ul>
+				</li>
+				<li><a href="musica.html"><font color="#ffffff" size="4" face="Moon, Comic Sans MS, Arial, MS Sans Serif">Musica</font></a>
+					<ul>
+						<li><a href="mt.html"><font color="#ffffff" size="2" face="Moon, Comic Sans MS, Arial, MS Sans Serif">Mejores Tiempos</font></a></li>
+						<li><a href="cm2005.html"><font color="#ffffff" size="2" face="Moon, Comic Sans MS, Arial, MS Sans Serif">Como Si Fuera 2005</font></a></li>
+					</ul>
+				</li>
+                 <li><a href="fotos.html"><font color="#ffffff" size="4" face="Moon, Comic Sans MS, Arial, MS Sans Serif">Fotos</font></a></li>
+                <li><a href="videos.html"><font color="#ffffff" size="4" face="Moon, Comic Sans MS, Arial, MS Sans Serif">Videos</font></a></li>
+				<li><a href="contacto.html"><font color="#ffffff" size="4" face="Moon, Comic Sans MS, Arial, MS Sans Serif">Contacto</font></a></li>
+</ul>
+		</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<center>
+<div class="contenedor">
+  <img src="Imagenes\fondo.png" width="1280" height="780">
+  <div class="centrado">
+
+
+    <table width="1" border="0">
+      <tr>
+        <td><img src="Imagenes\1.png" width="200" height="200"></td>
+        <td><img src="Imagenes\2.png" width="200" height="200"></td>
+        <td><img src="Imagenes\3.png" width="200" height="200"></td>
+        <td><img src="Imagenes\4.png" width="200" height="200"></td>
+      </tr>
+      <tr>
+        <td><img src="Imagenes\5.png" width="200" height="200"></td>
+        <td><img src="Imagenes\6.png" width="200" height="200"></td>
+        <td><img src="Imagenes\7.png" width="200" height="200"></td>
+        <td><img src="Imagenes\8.png" width="200" height="200"></td>
+      </tr>
+      <tr>
+        <td><img src="Imagenes\9.png" width="200" height="200"></td>
+        <td><img src="Imagenes\10.png" width="200" height="200"></td>
+        <td><img src="Imagenes\11.png" width="200" height="200"></td>
+        <td><img src="Imagenes\12.png" width="200" height="200"></td>
+      </tr>
+    </table>
+</div></div></center>
+</body>
+</html>
